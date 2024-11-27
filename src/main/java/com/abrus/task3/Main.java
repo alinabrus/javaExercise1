@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void test(String input) {
-        System.out.println(input + " is valid input: " + Boolean.toString(isValid(input)));
+        System.out.println(input + " is valid input: " + isValid(input));
     }
 
     public static boolean isValid(String s) {
