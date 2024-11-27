@@ -19,11 +19,11 @@ public class Main {
         System.out.println();
     }
 
-    public static void printArray(String prefix, int[] arr) {
+    private static void printArray(String prefix, int[] arr) {
         System.out.println(prefix + Arrays.toString(arr));
     }
 
-    public static void swapItems(int[] arr, int pos1, int pos2) {
+    private static void swapItems(int[] arr, int pos1, int pos2) {
         int buf = arr[pos1];
         arr[pos1] = arr[pos2];
         arr[pos2] = buf;
